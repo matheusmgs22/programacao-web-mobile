@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+</head>
+<body>
+    <header>
+        <nav aria-label="navegação primária">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="minhaRotina.html" > Minha Rotina</a></li>
+            <li><a href="contato.html" >Meu contato</a></li>
+            <li><a href="/cadastro.html" >Formulário de cadastro</a></li>
+        </nav>
+        <hr>
+    </header>
+        <h2>Formulário para cadastro</h2>
+          <fieldset>
+            <legend>
+              Suas Informações
+            </legend>
+            <p><label for="nomePessoa">Qual é o seu nome?</label>
+            <input type="text" name="nomePessoa" id="nomePessoa" placeholder="Matheus" autocomplete="on" required autofocus></p>
+            <p><label for="email">Email:</label>
+            <input type="email" id="email" name="email"></p>
+            <p><label for="pwd">Senha:</label>
+            <input type="password" id="pwd" name="pwd" minlength="8"></p>
+
+            <p><label for="aniversario">Data de nascimento:</label>
+            <input type="date" id="aniversario" name="aniversario"></p>
+
+            <p>Qual é o seu sexo? <br>
+            <input type="radio" name="genero" value="homem" checked>Homem<br>
+            <input type="radio" name="genero" value="mulher">Mulher<br>
+            <input type="radio" name="genero" value="outro">Outro / Prefiro não informar</p>
+
+
+            <p>Qual é o seu Estado Civil?
+            <input list="estadoCivil">
+            <datalist id="estadoCivil">
+            <option value="Solteiro(a)">
+            <option value="Casado(a)">
+            <option value="Separado(a)">
+            <option value="Divorciado(a)">
+            <option value="Viúvo(a)">
+            </datalist></p>
+
+          <button type="submit">Enviar</button>
+        </form>
+
+
+</body>
+</html>
