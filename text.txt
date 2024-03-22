@@ -1,0 +1,46 @@
+Crie uma página HTML que contenha uma imagem
+de fundo que se ajuste para ocupar todo o fundo
+completamente;
+
+► Nessa mesma página, inclua uma tag H1 com o
+conteúdo “Primeiro exercício de CSS” e faça com
+que essa tag tenha uma cor de fundo vermelha e
+uma borda verde de 2 pixels de espessura.
+
+
+
+
+Crie uma página com um DIV com fundo vermelho,
+700px de largura, padding 0px e centralizado na
+página;
+► E agora, como centralizar um bloco?
+► Agora insira um outro DIV, com fundo verde, 700 px de
+largura, padding 25px e também centralizado na
+página;
+► Por que os dois DIV não estão completamente
+alinhados?
+
+
+
+
+Crie uma página HTML com um parágrafo e,
+após o parágrafo, dois hyperlinks;
+
+► Faça com que o todo o texto dentro do
+parágrafo seja sublinhado e use a fonte
+Arial.
+
+Já os hyperlinks não devem ser
+sublinhados e sim aparecerem em negrito e
+com a fonte Times New Roman.
+
+
+► Crie uma página para uma loja de calçados
+contendo cinco DIVs com fundo verde (green),
+cada um exibindo uma imagem de calçado, bem
+como seu nome e preço. Os DIVs devem ficar lado
+a lado;
+
+► Na mesma página, abaixo dos DIVs com os
+produtos deve aparecer um rodapé com cor de
+fundo cinza (gray) com o nome da loja
