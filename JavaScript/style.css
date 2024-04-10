@@ -1,0 +1,30 @@
+body {
+    background-color: #FFF8DC;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.principal form {
+    margin: 400px;
+    padding: 50px;
+    border: 5px solid #623939;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.principal form .bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.principal form .bottom input[type="radio"],
+.principal form .bottom label {
+    margin-right: 5px;
+}
